@@ -4,4 +4,5 @@ const arena = () => {
 };
 
 console.log(arena());
+
 module.exports = arena;
