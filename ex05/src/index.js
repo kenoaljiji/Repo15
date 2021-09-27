@@ -13,8 +13,9 @@ function myObject() {
     console.log(error.message);
   }
 
-  return MATH_CONTANTS.E;
+  return MATH_CONSTANTS.E;
 }
-const E = myObject;
+
+const E = myObject();
 console.log(E);
 module.exports = myObject;
