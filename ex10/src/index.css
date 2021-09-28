@@ -124,7 +124,8 @@ input#form-search {
   margin-bottom: 18px;
   outline: none;
 }
-input#form-search:focus {
+input#form-search:focus,
+input#form-search:hover {
   box-shadow: 1px 6px 22px 1px rgba(150, 147, 147, 0.151);
 }
 
