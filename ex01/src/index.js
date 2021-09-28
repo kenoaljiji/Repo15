@@ -1,7 +1,7 @@
 let myName;
 let message;
 
-myName = "Pawdawns";
+myName = "Padawans";
 function myMsg(name) {
   "use strict";
   message = "Hello, " + name + "!";
