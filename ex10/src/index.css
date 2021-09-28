@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  min-width: 100%;
+  height: 100%;
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  padding: 5px;
+  font-weight: 400;
+}
+h3 {
+  padding-top: 0;
+  color: #d55858 !important;
+}
+
+h2,
+h3 {
+  text-align: center;
+  padding-top: 40px;
+  color: #d55858;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(39, 38, 38);
+}
+
+/*Header */
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#nav_bar {
+  justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  padding: 25px;
+}
+
+#nav_bar li:not(:last-child) {
+  margin-right: 20px;
+}
+#nav_bar li {
+  padding: 6px 3px;
+}
+
+#sign_in a {
+  color: #fff;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-weight: 500;
+  background: #1a73e8;
+}
+#sign_in a:hover {
+  text-decoration: none;
+  color: #fff;
+
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/*End of Header */
+
+/*Main div with picture and button */
+.main-container {
+  padding: 20px;
+  height: 400px;
+  width: 581px;
+  text-align: center;
+}
+#google_logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.form-search {
+  width: 100%;
+}
+input#form-search {
+  width: 90%;
+  height: 43.99px;
+  padding: 0px 20px;
+
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  margin-bottom: 25px;
+  outline: none;
+}
+input#form-search:focus {
+  box-shadow: 1px 6px 22px 1px rgba(150, 147, 147, 0.151);
+}
+
+#google_search,
+#im_feeling_lucky {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 30px;
+  line-height: 27px;
+  height: 30px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+#google_search:hover,
+#im_feeling_lucky:hover {
+  border: 1px solid #dadce0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+  color: #202124;
+}
+
+/* Footer */
+footer {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 10px 13px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Advertising,
+#Buisness,
+#Privacy,
+#Terms {
+  margin-right: 20px;
+}
+
+/* End of Footer */
