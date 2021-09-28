@@ -1,4 +1,7 @@
-const arena = () => new Date();
+const arena = () => {
+  "use strict";
+  return new Date();
+};
 
 console.log(arena());
 
