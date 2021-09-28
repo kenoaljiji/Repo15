@@ -100,11 +100,8 @@ ul {
 /*End of Header */
 
 /*Main div with picture and button */
-.main-container {
-  padding: 20px;
-  height: 450px;
-  width: 581px;
-  text-align: center;
+.google-image {
+  margin-top: 10%;
 }
 #google_logo {
   display: inline-block;
@@ -113,12 +110,12 @@ ul {
 
 .form-search {
   width: 100%;
+  text-align: center;
 }
 input#form-search {
-  width: 95%;
+  width: 30%;
   height: 43.99px;
   padding: 0px 20px;
-
   border-radius: 25px;
   border: 1px solid #dfe1e5;
   margin-bottom: 18px;
@@ -127,6 +124,10 @@ input#form-search {
 input#form-search:focus,
 input#form-search:hover {
   box-shadow: 1px 6px 22px 1px rgba(150, 147, 147, 0.151);
+}
+
+button {
+  margin-bottom: auto;
 }
 
 #google_search,
@@ -161,6 +162,7 @@ footer {
   width: 100%;
   background: #f2f2f2;
   padding: 14px 13px;
+  margin-top: auto;
 }
 
 .footer-left,
